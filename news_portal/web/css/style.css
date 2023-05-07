@@ -1,0 +1,150 @@
+body {
+    background-color: var(--primary-color);
+}
+.main-container {
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big-container {
+    width: 40%;
+    height: 330px;
+    margin: 20px;
+    background-color: #fff7f6;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #888;
+}
+
+.long-container {
+    width: 25%;
+    background-color: #fff7f6;
+    margin: 20px;
+    height:100%;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #888;
+}
+
+.long-container a {
+    color: #212121;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+    padding: 10px;
+}
+
+.long-container a:hover {
+    color: #0056b3;
+}
+
+.small-container {
+    flex-basis: 60%;
+    width: 400px;
+    height: auto;
+    margin: 10px;
+    background-color: #fff7f6;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #888;
+}
+
+.news-item {
+    margin: 10px 0;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid black;
+    margin: 10px 0;
+}
+
+.small-text {
+    bottom: 0;
+    left: 0;
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 2em;
+    padding: 10px 10px;
+}
+p {
+    font-size: 1.2em;
+    padding: 5px 5px;
+}
+
+h2 {
+    font-size: 1.5em;
+    padding: 5px 5px;
+}
+
+
+.classic-theme{
+    --primary-color: #edf2fc;
+    --secondary-color: #212121;
+    --middle-color: #FEEAE6;
+}
+.dark-theme{
+    --middle-color: #e5c5c2;
+    --primary-color: #24272d;
+    --secondary-color: #fff;
+}
+
+
+
+.button-16 {
+    background-color: #FEEAE6;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    height: 36px;
+    line-height: 27px;
+    min-width: 54px;
+    padding: 0 16px;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: pre;
+}
+
+
+.button-16:hover {
+    border-color: #dadce0;
+    box-shadow: rgba(0, 0, 0, .1) 0 1px 1px;
+    color: #202124;
+}
+
+.button-16:focus {
+    border-color: #4285f4;
+    outline: none;
+}
+
+* input{
+    background-color: var(--middle-color);
+}
+
+* label{
+    color: var(--secondary-color);
+}
+
+.for-post{
+    justify-content: flex-end;
+    display: inline-block;
+}
+
+.comment{
+    position: relative;
+}
+.comment button{
+    position: absolute;
+}
+.comment *{
+    color: var(--secondary-color);
+}
